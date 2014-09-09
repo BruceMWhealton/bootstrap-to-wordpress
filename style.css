@@ -1,0 +1,97 @@
+/*
+Theme Name: Bootstrap to Wordpress
+Theme URI: http://futurewavewebdevelopment.com
+Author: Bruce Whealton
+Author URI: http://fwwebdev.com/myresume/bruce-whealton-cv
+Description: Example theme using Bootstrap
+Version 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bootstrap-to-wp
+This theme, like WordPress is licensed under the GPL.
+*/
+
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.admin-bar .navbar-fixed-top {
+	margin-top: 30px;
+}
+
+.navbar-default  .navbar-nav > li.current_page_item {
+	background-color: #000;
+}
+
+.sub-menu {
+	display: none;
+	display: hidden;
+	position: absolute;
+	background: #222;
+	padding: 10px 15px;
+	width: 200px;		
+}
+
+li:hover .sub-menu {
+	display: block;
+}
+
+.sub-menu li {
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.sub-menu li:last-child {
+	margin-bottom: 0;
+}
+
+.sub-menu a  {
+	color: #999;
+	text-decoration: none;
+}
+
+.sub-menu a:hover  {
+	color: #fff;	
+}	
+
+.current-menu-item > a, .current-menu-parent > a {
+	background: #000;	
+}
+.current-menu-parent li a {
+	background: inherit;
+}
+.current-menu-parent .current-menu-item a {
+	color: #fff;
+	font-weight: bold;
+}
+@media (min-width:768px) {
+	.sub-menu {
+		display: none;
+		position: absolute;
+		background: #222;
+		padding: 10px 15px;
+		width: 200px;		
+	}
+
+	li:hover .sub-menu {
+		display: block;
+	}
+
+}
+
+.row .sidebar {
+	margin-top: 80px;
+	padding-top: 20px;
+}
+
+.sidebar h3 {
+	color: #888;
+}
+
+.sidebar .widget {
+	margin: 10px 0 30px;
+}
+.article.post {
+	margin: 20px 0 40px;
+}
